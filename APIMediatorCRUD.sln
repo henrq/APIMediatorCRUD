@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "..\..\Dotnet-CRUD-A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "..\..\Dotnet-CRUD-Api\src\DTO\DTO.csproj", "{DFE62221-A655-4443-95D2-D883196A531B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "..\..\Dotnet-CRUD-Api\src\Infrastructure\Infrastructure.csproj", "{AB5F1B27-D6DA-4A2C-8E1B-4BCCEA9D4175}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{DFE62221-A655-4443-95D2-D883196A531B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFE62221-A655-4443-95D2-D883196A531B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFE62221-A655-4443-95D2-D883196A531B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5F1B27-D6DA-4A2C-8E1B-4BCCEA9D4175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5F1B27-D6DA-4A2C-8E1B-4BCCEA9D4175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5F1B27-D6DA-4A2C-8E1B-4BCCEA9D4175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5F1B27-D6DA-4A2C-8E1B-4BCCEA9D4175}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{6D44CAC7-16E7-4A11-91C4-8BE2903773A9} = {281B2963-3AA2-406C-B0BA-B45D41146BA2}
 		{1AB0EBAA-E7E7-4EC4-9AFC-C51772E0868C} = {39FBB40C-F370-413D-8648-C856FFB8F78E}
 		{DFE62221-A655-4443-95D2-D883196A531B} = {39FBB40C-F370-413D-8648-C856FFB8F78E}
+		{AB5F1B27-D6DA-4A2C-8E1B-4BCCEA9D4175} = {39FBB40C-F370-413D-8648-C856FFB8F78E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43946C66-2BAA-46BA-B7FE-41511584841C}
