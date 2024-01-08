@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "..\..\Dotnet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "..\..\Dotnet-CRUD-Api\src\Core\Domain\Dominio.csproj", "{6D44CAC7-16E7-4A11-91C4-8BE2903773A9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "..\..\Dotnet-CRUD-Api\src\Data\Data.csproj", "{1AB0EBAA-E7E7-4EC4-9AFC-C51772E0868C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{6D44CAC7-16E7-4A11-91C4-8BE2903773A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D44CAC7-16E7-4A11-91C4-8BE2903773A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D44CAC7-16E7-4A11-91C4-8BE2903773A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AB0EBAA-E7E7-4EC4-9AFC-C51772E0868C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB0EBAA-E7E7-4EC4-9AFC-C51772E0868C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB0EBAA-E7E7-4EC4-9AFC-C51772E0868C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB0EBAA-E7E7-4EC4-9AFC-C51772E0868C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +46,7 @@ Global
 		{281B2963-3AA2-406C-B0BA-B45D41146BA2} = {39FBB40C-F370-413D-8648-C856FFB8F78E}
 		{B3994043-A279-4DBE-A959-7DEE79B0ECE3} = {281B2963-3AA2-406C-B0BA-B45D41146BA2}
 		{6D44CAC7-16E7-4A11-91C4-8BE2903773A9} = {281B2963-3AA2-406C-B0BA-B45D41146BA2}
+		{1AB0EBAA-E7E7-4EC4-9AFC-C51772E0868C} = {39FBB40C-F370-413D-8648-C856FFB8F78E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43946C66-2BAA-46BA-B7FE-41511584841C}
