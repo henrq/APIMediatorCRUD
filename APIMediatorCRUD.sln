@@ -19,6 +19,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "..\..\Dotnet-CRUD-Ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "..\..\Dotnet-CRUD-Api\src\Infrastructure\Infrastructure.csproj", "{AB5F1B27-D6DA-4A2C-8E1B-4BCCEA9D4175}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F423DE78-3BA3-4DB9-A8C9-3C6708F8404A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrudApi.Application.UnitTests", "..\..\Dotnet-CRUD-Api\test\CrudApi.Application.UnitTests\CrudApi.Application.UnitTests.csproj", "{D035451C-3902-42B3-B759-AC426237BBB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,10 @@ Global
 		{AB5F1B27-D6DA-4A2C-8E1B-4BCCEA9D4175}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB5F1B27-D6DA-4A2C-8E1B-4BCCEA9D4175}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB5F1B27-D6DA-4A2C-8E1B-4BCCEA9D4175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D035451C-3902-42B3-B759-AC426237BBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D035451C-3902-42B3-B759-AC426237BBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D035451C-3902-42B3-B759-AC426237BBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D035451C-3902-42B3-B759-AC426237BBB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +69,7 @@ Global
 		{1AB0EBAA-E7E7-4EC4-9AFC-C51772E0868C} = {39FBB40C-F370-413D-8648-C856FFB8F78E}
 		{DFE62221-A655-4443-95D2-D883196A531B} = {39FBB40C-F370-413D-8648-C856FFB8F78E}
 		{AB5F1B27-D6DA-4A2C-8E1B-4BCCEA9D4175} = {39FBB40C-F370-413D-8648-C856FFB8F78E}
+		{D035451C-3902-42B3-B759-AC426237BBB1} = {F423DE78-3BA3-4DB9-A8C9-3C6708F8404A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43946C66-2BAA-46BA-B7FE-41511584841C}
